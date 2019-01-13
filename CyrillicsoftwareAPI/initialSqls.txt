@@ -1,0 +1,11 @@
+create database cyrillicsoftware;
+
+create table user (
+	id bigint,
+	first_name TEXT,
+	last_name TEXT,
+	email TEXT,
+	username TEXT,
+	password TEXT,
+	primary key(id)
+)
